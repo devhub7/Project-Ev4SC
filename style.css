@@ -1,0 +1,335 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #6e6e6e;
+    font-family: arial,verdana;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ff7a22;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.structure {
+    display: block;
+    margin: 0 auto;
+    width: 1010px;
+}
+.fix {
+    overflow: hidden;
+}
+a {
+    color: #ff9514;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+img {
+}
+input[type="text"], input[type="submit"], input[type="reset"], textarea {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.header_area {
+    background: rgba(0, 0, 0, 0) url("images/header-bg.png") repeat-x scroll 0 0;
+    height: 206px;
+}
+.header-top {
+    width: 225px;
+}
+.header-right {
+    width: 800px;
+}
+.logo.fix img {
+    margin-top: 32px;
+}
+.header {
+}
+.header-top {
+}
+.header_right {
+    margin-top: 4%;
+}
+._btn > img {
+    left: 10px;
+    position: absolute;
+    top: 26px;
+}
+._btn {
+    padding: 50px 0 25px 25px;
+    position: relative;
+}
+._btn img:nth-child(1) {
+    left: 14px;
+    position: absolute;
+    top: 33px;
+    z-index: 2;
+}
+._btn img:nth-child(2) {
+    left: 10px;
+    position: absolute;
+    top: 26px;
+}
+._btn img:nth-child(3) {
+    left: 200px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+}
+._btn img:nth-child(5) {
+    left: 404px;
+    top: 35px;
+    z-index: 3;
+}
+._btn a {
+    background: rgba(0, 0, 0, 0) url("images/btn-bg.png") no-repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 21px;
+    margin-right: 40px;
+    position: relative;
+    text-shadow: -3px -3px 2px #f28000;
+}
+.btn_1 {
+    padding: 11px 42px;
+}
+.btn_2 {
+    padding: 11px 14px;
+}
+.btn_3 {
+    padding: 11px 22px;
+}
+._btn a:nth-child(4) {
+    margin-right: 30px;
+}
+._btn a:nth-child(6) {
+    margin-right: 0;
+}
+._nav {
+    margin-top: 16px;
+}
+._nav ul {
+    text-align: right;
+}
+._nav ul li {
+    display: inline-block;
+}
+._nav ul li a {
+    background: rgba(0, 0, 0, 0) url("images/top-menu-bg.png") repeat-x scroll 0 0;
+    border-radius: 10px 10px 0 0;
+    color: #fcf8ea;
+    display: block;
+    font-size: 15px;
+    padding: 8px 25px;
+}
+.maincontent_area {
+    background: rgba(0, 0, 0, 0) url("images/maincontent-bg.jpg") repeat-x scroll 0 0;
+}
+.maincontent {
+    background: #fff none repeat scroll 0 0;
+    margin-top: 15px;
+    padding: 15px;
+}
+.content {
+    margin-right: 20px;
+    width: 640px;
+}
+.content p {
+    margin-bottom: 15px;
+}
+p.last-child {
+    margin-bottom: 0;
+}
+.form_area {
+    border: 1px solid #cccccd;
+    padding: 20px;
+}
+.form_area p {
+    color: #666666;
+}
+.left-column.floatleft input[type="text"] {
+    width: 250px;
+}
+.right-column.floatright.fix input[type="text"] {
+    width: 290px;
+}
+.single-column p > input[type="text"]{
+    margin-right:15px;
+}
+.single-column p input[type="text"]:last-child{
+    margin-right:0;
+}
+.single-column p input[type="text"] {
+  width: 290px;
+}
+.single-column p:nth-child(2) input[type="text"] {
+  width: 460px;
+}
+.two-column {
+}
+.left-column {
+}
+.right-column {
+}
+.single-column.full-width p input[type="text"]{
+    width:100%;
+}
+.three-column {
+}
+.single-three-column {
+    margin-right: 15px;
+}
+.single-three-column:last-child {
+    margin-right: 0;
+}
+.single-three-column input[type="text"] {
+    width: 189px;
+}
+.form-submit {
+    margin-top: 10px;
+    text-align: right;
+}
+.sidebar {
+    width: 320px;
+}
+.content.floatleft.fix > h2 {
+    font-size: 22px;
+}
+.sidebar-content.aside-top {
+    border: 1px solid #cccccd;
+    margin-bottom: 15px;
+    margin-top: 33px;
+    padding: 10px 20px;
+}
+.sidebar-content.aside-top a {
+    color: #3c3c3b;
+    display: block;
+    font-size: 13px;
+    padding: 5px 0;
+}
+.sidebar-content.aside-top > h2 {
+    font-size: 18px;
+}
+.sidebar-content.aside-top li {
+    border-bottom: 1px dotted #3c3c3b;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+.sidebar-content.aside-top li::before {
+    background: rgba(0, 0, 0, 0) url("images/li.png") no-repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -2px;
+    position: absolute;
+    top: 9px;
+    width: 100%;
+}
+.sidebar-event.fix > img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c8c8c8;
+    padding: 7px;
+    width: 100%;
+}
+.sidebar-event {
+}
+.footer_area.fix {
+    background: rgba(0, 0, 0, 0) url("images/footer-bg.png") repeat-y scroll 0 0;
+    margin-top: 25px;
+    padding: 25px 0 15px;
+}
+.form-submit.fix > input[type="submit"] {
+    background: rgba(0, 0, 0, 0) url("images/submit-btn-bg.png") no-repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 14px 47px;
+    text-shadow: 0 -2px 1px #ff9413;
+}
+.form-submit.fix > input[type="reset"] {
+    background: rgba(0, 0, 0, 0) url("images/cancel-btn-bg.png") no-repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 40px;
+    text-shadow: 0 -2px 1px #ff9413;
+}
+.copyright.floatleft.fix > p {
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+}
+.socialbookmark.floatleft.fix > p {
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.socialbookmark.floatleft.fix img {
+    padding: 5px 1px;
+}
+.fnav.fix a {
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+}
+.fnav.fix li {
+    background: rgba(0, 0, 0, 0) url("images/border-right.jpg") no-repeat scroll right center;
+    display: inline-block;
+    font-size: 13px;
+}
+.fnav.fix li:last-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.single-column textarea {
+    width: 597px;
+}
+.footermenu {
+}
+.fnav {
+}
+.fbutton {
+}
+/*CSS For Find an Event*/
+.maincontent.findanevent {
+	border: 1px solid #ddd;
+	margin-bottom:10px;
+}
+.findanevent p {
+	font-size: 13px;
+	color: #3c3c3b;
+	margin-bottom: 15px;
+}
+.findanevent p:last-child {
+	padding-bottom:50px;
+}
+.socialbookmark.findanevent.fix {
+  text-align: center;
+}
+/*Find An Event*/
+.maincontent.whyjoin {
+	border: 1px solid #ddd;
+	margin-bottom:0;
+	border-bottom:none;
+}
